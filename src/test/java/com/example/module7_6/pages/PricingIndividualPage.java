@@ -29,6 +29,9 @@ public class PricingIndividualPage {
     @FindBy(xpath = "//h3[contains(.,'For classroom assistance free')]")
     private WebElement titleClassroomFree;
 
+    @FindBy(xpath = "//h3[contains(.,'For classroom assistance free__')]")
+    private WebElement fakeTitleClassroomFree;
+
     public boolean enabledButtonPackYear() {
         log.info("Проверка, что кнопка покупки доступна");
         return buttonPackYear.isEnabled();
@@ -57,6 +60,11 @@ public class PricingIndividualPage {
     public boolean displayTitleClassroom() {
         log.info("Заголовок \"For classroom assistance free\" отобразился");
         return titleClassroomFree.isDisplayed();
+    }
+
+    public boolean displayFakeTitleClassroom() {
+        log.info("Заголовок \"For classroom assistance free\" отобразился");
+        return fakeTitleClassroomFree.isDisplayed();
     }
 
     public PricingIndividualPage(WebDriver driver, WebDriverWait wait) {
