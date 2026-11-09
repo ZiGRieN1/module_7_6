@@ -1,6 +1,6 @@
-package com.example.module7_5;
+package com.example.module7_6;
 
-import com.example.module7_5.tests.BaseTest;
+import com.example.module7_6.tests.BaseTest;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

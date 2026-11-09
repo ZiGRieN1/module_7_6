@@ -1,4 +1,4 @@
-package com.example.module7_5.tests;
+package com.example.module7_6.tests;
 
 
 import org.junit.jupiter.api.AfterEach;

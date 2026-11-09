@@ -1,6 +1,6 @@
-package com.example.module7_5.pages;
+package com.example.module7_6.pages;
 
-import com.example.module7_5.AllureLogger;
+import com.example.module7_6.AllureLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

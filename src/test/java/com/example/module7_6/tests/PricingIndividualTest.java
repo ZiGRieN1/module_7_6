@@ -1,8 +1,8 @@
-package com.example.module7_5.tests;
+package com.example.module7_6.tests;
 
 
-import com.example.module7_5.pages.CookieSettingsPage;
-import com.example.module7_5.pages.PricingIndividualPage;
+import com.example.module7_6.pages.CookieSettingsPage;
+import com.example.module7_6.pages.PricingIndividualPage;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
